@@ -1,0 +1,20 @@
+{
+    "tasks": [
+        {
+            "label": "Rebuild with vcpkg",
+            "type": "shell",
+            "command": "Remove-Item -Recurse -Force build -ErrorAction SilentlyContinue; mkdir build; cmake -B build -S .; cmake --build build;",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ],
+    "version": "2.0.0"
+}

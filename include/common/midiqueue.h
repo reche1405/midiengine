@@ -1,7 +1,7 @@
 #ifndef MIDIQUEUE_H
 #define MIDIQUEUE_H
 #include <atomic>
-#include <vector>
+#include <array>
 
 namespace midiio {
     template<typename T, size_t Capacity>

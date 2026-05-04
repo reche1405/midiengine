@@ -1,0 +1,7 @@
+{
+    "name": "midi-engine",
+    "version": "1.0.0",
+    "dependencies": [
+        "microsoft-windows-devices-midi2"
+    ]
+}
